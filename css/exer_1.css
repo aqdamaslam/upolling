@@ -1,0 +1,134 @@
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  font-family: "Times New Roman", Times, serif;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #E0FFFF;
+      height: 210%;
+	  font-family: "Times New Roman", Times, serif;
+    }
+	
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 980px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+		font-family: "Times New Roman", Times, serif;
+      }
+      .row.content {height:auto;} 
+    }
+  /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+  
+#nav {
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    background-color: #1995AD;
+    width: 100%;
+    margin: 0 auto;
+	font-family: "Times New Roman", Times, serif;
+}
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+#nav ul li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+#nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #000000;
+    text-align: center;
+}
+  
+p {
+  text-align: center;
+  font-size: 15px;
+  margin-top:0px;
+  font-family: "Times New Roman", Times, serif;
+  color: #9ACD32;
+}
+h4 {
+  text-align: center;
+  font-size: 20px;
+  margin-top:0px;
+  font-family: "Times New Roman", Times, serif;
+}
+h2 {
+  text-align: center;
+  font-size: 20px;
+  margin-top:0px;
+  font-family: "Times New Roman", Times, serif;
+}
+h3 {
+  text-align: center;
+  font-size: 20px;
+  margin-top:0px;
+  font-family: "Times New Roman", Times, serif;
+  color: #4CAF50;
+}
+
+label {
+  text-align: center;
+  font-size: 20px;
+  margin-top:0px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.check
+{
+    opacity:0.5;
+	color:#996;
+}
+.box{
+    margin-bottom:5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 12.5%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
