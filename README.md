@@ -14,3 +14,4 @@ Key Features:
 - User-friendly interface for both creators and participants
 
 Upolling is the perfect solution for businesses, educators, event organizers, and individuals who need an efficient polling platform. Gather insights, make informed decisions, and engage your audience with ease using Upolling!
+ 
